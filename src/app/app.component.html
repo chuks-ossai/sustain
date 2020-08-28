@@ -82,7 +82,7 @@
                   </a>
                 </li>
                 <li class="nav-item ml-md-auto">
-                  <a href="#" class="nav-link">
+                  <a href="#" class="nav-link" data-toggle="modal" data-target="#signout-modal">
                     <i class="fas fa-sign-out-alt text-danger fa-lg"></i>
                   </a>
                 </li>
@@ -96,3 +96,23 @@
   </div>
 </nav>
 <!-- End of Navbar-->
+
+<!-- Modal -->
+<div class="modal fade" id="signout-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Confirmation</h4>
+        <button type="button" class="close" data-dismiss="modals">&times;</button>
+      </div>
+      <div class="modal-body">
+        Click logout if you are sure you really want to leave
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-warning" type="button" data-dismiss="modal">Not anymore</button>
+        <button class="btn btn-danger" type="button" data-dismiss="modal">Logout</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of Modal -->

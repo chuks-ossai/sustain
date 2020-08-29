@@ -1,5 +1,5 @@
 {
-  "name": "bacs",
+  "name": "sustain",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,10 +8,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dev:ssr": "ng run bacs:serve-ssr",
-    "serve:ssr": "node dist/bacs/server/main.js",
-    "build:ssr": "ng build --prod && ng run bacs:server:production",
-    "prerender": "ng run bacs:prerender"
+    "dev:ssr": "ng run sustain:serve-ssr",
+    "serve:ssr": "node dist/sustain/server/main.js",
+    "build:ssr": "ng build --prod && ng run sustain:server:production",
+    "prerender": "ng run sustain:prerender"
   },
   "private": true,
   "dependencies": {

@@ -19,13 +19,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "bacs",
+      "sustain",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "bacs",
+      "sustain",
       "kebab-case"
     ],
     "eofline": true,
